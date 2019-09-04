@@ -1,0 +1,15 @@
+{
+  "name": "Base64 decoder",
+  "version": "1.2",
+  "description": "Decode Base64 string in omnibox",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "omnibox": {
+    "keyword": "base"
+  },
+  "manifest_version": 2
+}
